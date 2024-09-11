@@ -29,12 +29,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
-            "server": "src/main.server.ts",
-            "prerender": true,
-            "ssr": {
-              "entry": "server.ts"
-            }
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -94,14 +89,8 @@
             ],
             "scripts": []
           }
-        },
-        "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
-  },
-  "cli": {
-    "analytics": false
   }
 }
